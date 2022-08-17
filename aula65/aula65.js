@@ -4,8 +4,11 @@
 
 const numeros = [ 5, 50 , 65, 40, 80, 90, 1, 2, 3, 4, 5, 6, 7];
 const numerosFiltrados =  numeros.filter( valor => valor > 50);
-
+    console.log('Retornar números maiores que 10');
+    console.log('');
     console.log(numerosFiltrados);
+    console.log('');
+
 
 // Retorne as pessoas que tem o nome com 5 letras ou mais
 // Retorne as pessoas com mais de 50 anos
@@ -25,7 +28,19 @@ const pessoasIdadeCiquentaAnos = pessoas.filter( obj => obj.idade > 50);
 const nomeTerminaComA = pessoas.filter( obj => {
     return obj.nome.toLowerCase().endsWith('a');
 });
-
+console.log('------------------------------------------------------');
+console.log('Retorne as pessoas que tem o nome com 5 letras ou mais')
 console.log(pessoasNomeGrande);
+console.log('');
+console.log('-----------------------------------------');
+
+console.log(' Retorne as pessoas com mais de 50 anos');
 console.log(pessoasIdadeCiquentaAnos);
+console.log('');
+
+console.log('-----------------------------------------------------');
+console.log('Retorne as pessoas cujo nome termina com a letra "a"');
 console.log(nomeTerminaComA);
+console.log('');
+
+
